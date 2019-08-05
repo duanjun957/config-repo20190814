@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   datasource:
     username: root
     password: 123456
@@ -13,12 +11,4 @@ spring:
     password: guest  
   jpa:
     show-sql: true
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-PRODUCT:
-  ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
-env:
-  dev  
+
