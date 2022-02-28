@@ -21,6 +21,6 @@ eureka:
 #  ribbon:
 #    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 env:
-  dev91
+  dev911
 
 
